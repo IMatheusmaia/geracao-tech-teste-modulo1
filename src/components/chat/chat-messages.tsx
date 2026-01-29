@@ -12,7 +12,6 @@ interface ChatMessagesProps {
 }
 
 export default function ChatMessages({ messages, isLoading }: ChatMessagesProps) {
-  const scrollAreaRef = React.useRef<HTMLDivElement>(null);
   const viewportRef = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
@@ -22,7 +21,7 @@ export default function ChatMessages({ messages, isLoading }: ChatMessagesProps)
   }, [messages, isLoading]);
 
   return (
-    <ScrollArea className="flex-1" ref={scrollAreaRef} viewportRef={viewportRef}>
+    <ScrollArea className="flex-1" viewportRef={viewportRef}>
       <div className="p-4 space-y-4">
         {messages.map((message) => (
           <ChatMessage key={message.id} message={message} />
