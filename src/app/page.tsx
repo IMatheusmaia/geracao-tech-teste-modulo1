@@ -14,8 +14,8 @@ export default function Home() {
       </div>
       <div className="w-full max-w-4xl h-full md:h-[90dvh] md:max-h-[800px] flex flex-col p-4">
         <header className="mb-4 text-center">
-          <h1 className="text-4xl font-headline font-bold text-primary tracking-tighter">GeminiChat</h1>
-          <p className="text-sm text-muted-foreground">Your friendly AI-powered chat assistant</p>
+          <h1 className="text-4xl font-headline font-bold text-primary tracking-tighter">Chat Geração Tech 3.0</h1>
+          <p className="text-sm text-muted-foreground">O assistente virtual da turma 3.0</p>
         </header>
         <ChatLayout />
       </div>

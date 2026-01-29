@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'GeminiChat',
-  description: 'An AI-powered chat application built with Next.js and Gemini.',
+  title: 'Geração Tech Chat',
+  description: 'An AI-powered chat application built to Geração Tech.',
 };
 
 export default function RootLayout({

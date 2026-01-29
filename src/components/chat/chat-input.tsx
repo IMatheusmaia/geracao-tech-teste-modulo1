@@ -42,7 +42,7 @@ export default function ChatInput({
           value={input}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
-          placeholder="Ask me anything..."
+          placeholder="Escreva sobre qualquer assunto..."
           className="flex-1 resize-none max-h-48"
           rows={1}
           disabled={isLoading}
@@ -59,7 +59,7 @@ export default function ChatInput({
           ) : (
             <SendHorizonal />
           )}
-          <span className="sr-only">Send message</span>
+          <span className="sr-only">Enviar Menssagem</span>
         </Button>
       </form>
     </div>
